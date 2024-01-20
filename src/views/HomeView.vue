@@ -1,7 +1,7 @@
 <template>
   <ImageUpload @getResult="getResult" @getProducts="getProducts" />
   <ResultDisplay v-if="classificationResults.length > 0" :labels="classificationResults"   />
-  <SimpleBasket v-if="products.length > 0" :products="products" />
+  <SimpleBasket v-if="classificationResults.length > 0" :products="products" />
 </template>
 
 <script>
