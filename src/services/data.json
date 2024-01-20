@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1a23bc45-678d-90ef-ghij-klmnopqrstuv",
+    "name": "background",
+    "price": 10.99
+  },
+  {
+    "id": "2b34cd56-789e-01fg-hijk-lmnopqrstuvi",
+    "name": "tench",
+    "price": 15.99
+  },
+  {
+    "id": "3c45de67-890f-12gh-ijkl-mnopqrstuvij",
+    "name": "French loaf",
+    "price": 8.99
+  },
+  {
+    "id": "3c45de67-890f-12gh-ijkl-mn423rstuvij",
+    "name": "bread",
+    "price": 12.99
+  }
+]
