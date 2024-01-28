@@ -1,6 +1,7 @@
 <template>
   <div>
     <video ref="video" width="400" height="300" autoplay></video>
+    <button @click="captureImage">Capture</button>
   </div>
 </template>
 
@@ -14,6 +15,11 @@ export default {
       .catch(error => {
         console.error('Error accessing camera:', error);
       });
+  },
+  methods: {
+    captureImage() {
+      // TODO: Implement this method
+    }
   }
 }
 </script>

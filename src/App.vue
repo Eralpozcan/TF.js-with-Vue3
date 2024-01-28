@@ -7,12 +7,6 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import Banner from './components/Banner.vue';
-
-export default {
-    name: 'App',
-    components: { Banner }
-};
 </script>
-
