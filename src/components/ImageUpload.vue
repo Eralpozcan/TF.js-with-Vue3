@@ -57,6 +57,6 @@ const processImage = async () => {
       <img :src="previewImage" alt="Input Image" class="w-96 h-96 my-2 rounded" loading="lazy"/>
     </div>
     <input type="file" accept="image/*" class="file-input w-full max-w-xs mb-2" alt="Image Input" @change="handleImageUpload" />
-    <button class="btn btn-primary w-32" @click="processImage" :disabled="!isImageSelected">Classify</button>
+    <button class="btn btn-primary w-48" @click="processImage" :disabled="!isImageSelected">Classify or Recognize</button>
   </div>
 </template>
