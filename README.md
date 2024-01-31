@@ -18,7 +18,7 @@ In simple terms, this repo or project aims to demonstrate the use of Tensorflow.
 
 ### 📜 **Features**
 
-- Object Classification
+- Object Recognition
 - Add to Cart
 
 
