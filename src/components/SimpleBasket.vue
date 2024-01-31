@@ -9,7 +9,7 @@ defineProps({
     <h2 class="text-xl font-semibold mb-4">Product Basket</h2>
     <div class="flex justify-between items-center border-b pb-4 mb-4" v-for="product in products" :key="product.id">
       <div>
-        <h3 class="text-lg text-balance font-medium">{{ product.name }}</h3>
+        <h3 class="text-lg text-balance font-medium">1x {{ product.name }}</h3>
       </div>
       <div class="flex items-center">
         <span class="text-slate-600 dark:text-slate-400 font-semibold">Price: {{ product.price }}</span>
